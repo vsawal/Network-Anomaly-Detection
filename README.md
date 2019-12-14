@@ -25,21 +25,21 @@ Three models were used to perform node classification:
 ![GAT](https://github.com/anish-saha/Network-Anomaly-Detection/blob/master/figures/gat.png)
 
 ## Setup
-pip3 install --user -r requirements.txt
+`pip3 install --user -r requirements.txt`
 
 ## Usage
 
 ### Two-stage Classifier
-python3 eda.py
+`python3 eda.py`
 
-python3 sybil_detect.py
+`python3 sybil_detect.py`
 
 ### GCN
 cd pygcn/
 
-python3 train.py
+`python3 train.py`
 
 ### GAT
 cd pygat/
 
-python3 train.py --sparse
+`python3 train.py --sparse`
